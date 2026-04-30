@@ -1,0 +1,21 @@
+# Credenciales y tokens
+.env
+*.key
+
+# Archivos CSV con datos personales
+*.csv
+reporte_envio.json
+
+# Entornos virtuales
+.venv/
+Venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editores
+.vscode/
+*.swp
