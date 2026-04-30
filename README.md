@@ -1,10 +1,10 @@
-# 📲 Envio_Masivo — WhatsApp Business API Sender
+#  Envio_Masivo — WhatsApp Business API 
 
 Herramienta de envío masivo de mensajes de WhatsApp desarrollada para apoyar la gestión de comunicaciones del área de **Gestión de las Artes** de la **Secretaría de Cultura de Cali**, Colombia.
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 Este proyecto permite enviar mensajes masivos a través de la **WhatsApp Business Cloud API (Meta)** usando plantillas de mensajes aprobadas. Está diseñado para notificar a participantes inscritos en programas culturales sobre talleres, eventos y actividades.
 
@@ -16,7 +16,7 @@ Este proyecto permite enviar mensajes masivos a través de la **WhatsApp Busines
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - Python 3.11+
 - [WhatsApp Business Cloud API (Meta)](https://developers.facebook.com/docs/whatsapp)
@@ -24,7 +24,7 @@ Este proyecto permite enviar mensajes masivos a través de la **WhatsApp Busines
 
 ---
 
-## ⚙️ Configuración
+##  Configuración
 
 ### 1. Clonar el repositorio
 ```bash
@@ -61,7 +61,7 @@ CSV_FILE          = "numeros.csv"
 
 ---
 
-## ▶️ Uso
+## Uso
 
 ```bash
 python enviar_api.py
@@ -71,7 +71,7 @@ El script muestra el progreso en tiempo real y genera un reporte `reporte_envio.
 
 ---
 
-## 📄 Reporte de envío
+## Reporte de envío
 
 Al finalizar se genera automáticamente un archivo `reporte_envio.json`:
 ```json
@@ -83,7 +83,7 @@ Al finalizar se genera automáticamente un archivo `reporte_envio.json`:
 
 ---
 
-## 🔒 Seguridad
+## Seguridad
 
 - Nunca subas tu `WA_ACCESS_TOKEN` al repositorio
 - Usa variables de entorno o un archivo `.env` para las credenciales en producción
@@ -91,7 +91,7 @@ Al finalizar se genera automáticamente un archivo `reporte_envio.json`:
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 Envio_Masivo/
@@ -104,15 +104,15 @@ Envio_Masivo/
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Yan Caicedo**  
-Contratista independiente — Gestión de las Artes  
+Contratista — Gestión de las Artes  
 Secretaría de Cultura de Cali, Colombia  
 [github.com/Yacaicedo6](https://github.com/Yacaicedo6)
 
 ---
 
-## 📜 Licencia
+##  Licencia
 
 Uso interno. Todos los derechos reservados.
